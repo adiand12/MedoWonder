@@ -1,0 +1,37 @@
+.animated-heart {
+    animation: heartbeat 1s infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      font-size: 3rem;
+    }
+    50% {
+      font-size: 3.6rem;
+    }
+    100% {
+      font-size: 3rem;
+    }
+  }
+  
+  .background-container {
+    background: url('../../Assets/doctor-picture.png') no-repeat center center;
+    background-size: contain; /* Changed to cover for full background effect */
+    position: relative;
+    padding: 2rem;
+    border-radius: 12px;
+    color: white;
+    z-index: 1;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    z-index: -1;
+  }
+  

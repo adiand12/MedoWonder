@@ -44,14 +44,14 @@ function BookAppointment() {
         <p className="ba-checks ba-check-last">
           <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#1E8FFD" }} /> Enrollment Easy and Quick
         </p>
-
         <button
-          className="text-appointment-btn"
-          type="button"
-          onClick={handleBookAppointmentClick}
-        >
-          <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-        </button>
+            className=" py-3 px-5 text-white bg-blue-600 rounded-full text-lg font-rubik tracking-wide transition-all duration-400 ease-in-out hover:text-blue-600 hover:bg-transparent hover:border hover:border-blue-600 sm:text-base"
+            type="button"
+            onClick={handleBookAppointmentClick}
+          >
+            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+          </button>
+        
       </div>
     </div>
   );
